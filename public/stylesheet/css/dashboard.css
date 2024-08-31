@@ -1,0 +1,222 @@
+/*
+  Theme Name: 
+  Theme URL: 
+  Author: Pixel Coders
+  Description: 
+  Version: 1.0
+*/
+/*
+  Theme Name: Pixel Alexa
+  Theme URL: http://www.socialdiggers.com/template/pixelalexa/pages/index.html
+  Author: Pixel Coders
+  Description: Pixel Alexa - Responsive one page Template less stylesheet
+  Version: 1.0
+*/
+/*
+  Theme Name: Pixel Alexa
+  Theme URL: http://www.socialdiggers.com/template/pixelalexa/pages/index.html
+  Author: Pixel Coders
+  Description: Pixel Alexa - Responsive one page Template less stylesheet
+  Version: 1.0
+*/
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+body {
+  background-color: #2f4050;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 13px !important;
+  color: #676a6c !important;
+  text-decoration: none !important;
+}
+.navbar-static-side {
+  z-index: 2001;
+  position: absolute;
+  width: 16%;
+  background-color: transparent;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li {
+  background-color: transparent;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li a {
+  padding: 14px 20px 14px 25px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #a7b1c2;
+  background-color: transparent;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li a i {
+  display: inline-block;
+  margin-right: 6px;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li .col-exp .lev2-ul {
+  display: block;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li .col-exp .lev2-ul li {
+  background-color: transparent;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li .col-exp .lev2-ul li:hover > a {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li .col-exp .lev2-ul > li a {
+  display: block;
+  padding: 7px 10px 7px 52px;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li:hover > a {
+  color: #ffffff;
+  background-color: #293846;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.header {
+  background: url(../../images/header-profile.png) no-repeat;
+  background-attachment: fixed ;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  padding: 28px 25px;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.header .prof-li .img-circle {
+  width: 44px;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.header .prof-li a {
+  padding: 10px 0;
+  display: block;
+  color: #a7b1c2;
+  background-color: transparent;
+  font-weight: 100;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.header .prof-li a strong {
+  display: block;
+  color: #ffffff;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.header .logo {
+  display: none;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.active {
+  border-left: 4px solid #19aa8d;
+  background-color: #293846;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.active > a {
+  color: #ffffff;
+}
+.page-wrap {
+  background-color: #f3f3f4;
+  color: #676a6c;
+  margin-left: 16%;
+}
+.navbar-static-top {
+  margin: 0;
+  border-bottom: 1px solid #e7eaec;
+}
+.navbar-static-top .nav-header .nav-minmize {
+  margin: 14px 5px 5px 20px;
+  padding: 4px 12px;
+  background-color: #19aa8d;
+  border: #19aa8d;
+  vertical-align: top;
+}
+.navbar-static-top .nav-header .nav-brand {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0;
+  padding: 17px 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar-static-top .navbar-top-links .btn {
+  margin: 14px 20px;
+}
+.page-heading {
+  background-color: #ffffff;
+  padding: 0 0 15px 20px;
+  border-bottom: 1px solid #e7eaec;
+}
+.page-heading h2 {
+  font-size: 1.8em;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.page-heading .breadcrumb {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+.page-heading .breadcrumb li a {
+  color: #676a6c;
+}
+.page-heading .breadcrumb li.active {
+  font-weight: bold;
+}
+.dash-wrap {
+  min-height: 700px;
+  padding: 20px;
+}
+.create .tab-content {
+  padding: 20px 15px;
+  background-color: #ffffff;
+  border-left: 1px solid #e7eaec;
+  border-right: 1px solid #e7eaec;
+  border-bottom: 1px solid #e7eaec;
+}
+.create .tab-content .tab-pane .form-group {
+  margin-bottom: 15px;
+}
+.create .tab-content .tab-pane .form-group label {
+  text-align: right;
+  padding: 5px 20px;
+}
+.create .tab-content .tab-pane .checkbox label {
+  padding-left: 40px;
+}
+.list {
+  padding: 20px 15px;
+  border-top: 3px solid #e7eaec;
+  background-color: #ffffff;
+}
+.list span {
+  margin: 20px 0;
+}
+.set {
+  border-top: 3px solid #e7eaec;
+  background-color: #ffffff;
+}
+.set .box-head {
+  padding: 2px 15px;
+}
+.set .box-head h4 {
+  font-weight: 600;
+  font-size: 14px;
+}
+.set .edit {
+  border-top: 1px solid #e7eaec;
+  padding: 20px 15px;
+}
+.set .inbox {
+  border-top: 1px solid #e7eaec;
+  padding: 20px 15px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #19aa8d;
+}
+.save {
+  margin: 40px 0 10px 15px;
+}
+.save .btn {
+  background-color: #ffffff;
+  border-color: #19aa8d;
+  color: #19aa8d;
+  display: inline;
+}
+.save .btn:hover {
+  background-color: #19aa8d;
+  color: #ffffff;
+}
+footer {
+  background-color: #cccccc;
+  padding: 15px;
+}
+footer ul {
+  margin: 0;
+}

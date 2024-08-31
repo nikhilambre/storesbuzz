@@ -1,0 +1,60 @@
+/** Parallax Scrolling Tutorial
+ *************************************************/
+
+
+article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-height: 1em; }
+
+.story { height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; box-shadow: 0 0 50px rgba(0,0,0,0.8);}
+
+#first { background: url(../../images/bg4.jpg) 50% 0 no-repeat fixed; }
+#second { background: url(../../images/bg8.jpg) 50% 0 no-repeat fixed; }
+#fourth { background: url(../../images/bg12.jpg) 50% 0 no-repeat fixed; }
+#third { background: url(../../images/bg2.jpg) 50% 0 no-repeat fixed; }
+#theend { background: url(../../images/bg8.jpg) 50% bottom no-repeat fixed; }
+
+#header-2 { background: url(../../images/bg2.jpg) 50% 0 no-repeat fixed; }
+
+/* Introduction */
+#first .smashinglogo { background: url(../images/smashing-logo.png) 50% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#first article { width: 100%; top: 300px; position: absolute; text-align: center; }
+#first article p,
+#first article a { color: #ccc; }
+#first article a { text-decoration: underline; }
+#first article a:hover { color: #fff; }
+
+/* Background Only */
+#second .photograph { 
+	background: url(../../images/m1.png) transparent 40% 100px no-repeat fixed;
+	min-height: 1000px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	margin: 0 auto; 
+}
+
+#second article { 
+	position: absolute;
+	top: 0;
+}
+#second article p { margin-bottom: 25px; }
+#second article a { color: #ff0;}
+
+/* Photograph */
+#third article { 
+	position: absolute;
+	top: 0;
+}
+#third .photograph { background: url(../../images/display1.png) transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#third article p { width: 400px; margin-bottom: 25px; }
+
+/* HTML5 Video */
+#fourth article {  margin-left: 10%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; }
+#fourth article p { width: 400px; margin: 50px 0; }
+#fourth video { position: fixed; left: 50%; box-shadow: 0 0 25px rgba(0,0,0,0.7); z-index: 1;}
+
+/* The End */
+#theend .byebye { background: url(../images/theend.png) 40% 100px no-repeat fixed; height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
+

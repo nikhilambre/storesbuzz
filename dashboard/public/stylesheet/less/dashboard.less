@@ -1,0 +1,484 @@
+/*
+  Theme Name: 
+  Theme URL: 
+  Author: Pixel Coders
+  Description: 
+  Version: 1.0
+*/
+
+@import "classes";
+@import "mixins";
+@import "variables";
+
+.row{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+body{
+	.bg(#2f4050);
+	font-family: 'Open Sans', sans-serif !important;
+    font-size: 13px !important;
+    color: #676a6c !important;
+    text-decoration: none !important;
+}
+
+
+.page-wrap{
+	.bg(#f3f3f4);
+	color: @g-4;
+	margin-left: 16%;
+}
+
+.navbar-static-side{
+    z-index: 2001;
+    position: absolute;
+    width: 16%;
+    .bg(@t);
+
+    .sidebar-collapse{
+    	.lev1-ul{
+
+    	}
+
+    	.lev1-ul > li{
+    		.bg(@t);
+
+    		a{
+    			padding: 14px 20px 14px 25px;
+    			font-weight: 600;
+    			text-decoration: none;
+    			color: @c-5;
+    			.bg(@t);
+
+	    		i{
+	    			display: inline-block;
+	    			font-size: 16px;
+	    			margin-right: 8px;
+	    		}
+    		}
+
+			.col-exp{
+				.lev2-ul{
+					display: block;
+
+					li{
+						.bg(@t);
+
+						&:hover>a{
+							color: #fff;
+							.bg(@t);
+						}
+					}
+
+				}
+
+				.lev2-ul>li a{
+					display: block;
+					padding: 7px 10px 7px 52px;
+				}
+			}
+
+			&:hover{
+			}
+
+			&:hover> a{
+				color: #fff;
+				.bg(@c-2);
+			}
+    	}
+
+    	.lev1-ul>li.header{
+    		background: url(../../images/header-profile.png) no-repeat;
+    		background-attachment:fixed ;
+		    width:100%;
+		    height:100%;
+		    background-size: cover;
+    		padding: 28px 25px;
+
+    		.prof-li{
+    			.img-circle{
+    				width: 54px;
+    			}
+
+    			a{
+    				padding: 10px 0;
+    				display: block;
+    				color: @c-5;
+    				.bg(@t);
+    				font-weight: 100;
+
+    				strong{
+    					display: block;
+    					color: #fff;
+    				}
+    			}
+    		}
+
+    		.logo{
+    			display: none;
+    		}
+    	}
+
+    	.lev1-ul > li.active{
+    		border-left: 4px solid @c-1;
+    		.bg(@c-2);
+
+    		&:hover>a{
+    			
+    		}
+    	}
+
+    	.lev1-ul > li.active> a{
+    		color: #fff;
+    	}
+    }
+}
+
+.navbar-static-top{
+	margin: 0;
+	border-bottom: 1px solid @c-3;
+
+	.nav-header{
+		.nav-minmize{
+			margin: 14px 5px 5px 20px;
+			padding: 4px 12px;
+			.bg(@c-1);
+			border: @c-1;
+			vertical-align: top;
+		}
+
+		.nav-brand{
+			display: inline-block;
+			font-size: 20px;
+			font-weight: 100;
+			margin: 0;
+			padding: 17px 5px;
+			font-family: 'Open Sans', sans-serif;
+		}
+	}
+
+	.navbar-top-links{
+		.btn{
+			margin: 14px 20px;
+		}
+	}
+}
+
+.page-heading{
+	.bg(#fff);
+	padding: 0 0 15px 20px;
+	border-bottom: 1px solid @c-3;
+
+	h2{
+		font-size: 1.8em;
+		font-weight: 100;
+		margin-top: 10px;
+	}
+
+	.breadcrumb{
+		padding: 0;
+		margin: 0;
+		.bg(@t);
+
+		li{
+			a{
+				color: @c-6;
+			}
+
+			&.active{
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+
+.dash-wrap{
+	min-height: 700px;
+	padding: 20px;
+}
+
+.create{
+	margin-bottom: 20px;
+}
+
+
+.list{
+	padding: 20px 15px;
+	border-top: 1px solid @c-3;
+	.bg(#fff);
+
+	.table{
+
+		td{
+			i.fa{
+				font-size: 20px;
+				color: @c-1;
+			}
+		}
+	}
+
+	i.list-fa{
+		font-size: 20px;
+		color: @c-1;
+		margin-right: 20px;
+	}
+
+	address{
+		width: 180px;
+	}
+
+	span{
+		margin: 20px 0;
+	}
+
+	nav{}
+
+	.panel{
+		.panel-heading{
+			.panel-title{
+				display: inline-block;
+				margin: -10px 0;
+
+				i{
+					color: #fff;
+					padding-top: 5px;
+					text-align: center;
+					height: 26px;
+					width: 26px;
+					border-radius: 50%;
+					.bg(@c-1);
+				}
+			}
+
+			.panel-icon a{
+				color: @c-1;
+				margin: -10px 2px;
+				display: inline-block;
+			}
+		}
+		.panel-body{}
+	}
+}
+
+
+.set{
+	border-top: 3px solid @c-3;
+	.bg(#fff);
+
+	.box-head{
+		padding: 2px 15px;
+
+		h4{
+			font-weight: 600;
+			font-size: 14px;
+		}
+	}
+
+	.btn{
+		color: #fff !important;
+		.bg(@c-1) !important;
+		border: @c-1 !important;
+	}
+
+	.form-group{
+		margin-bottom: 30px;
+
+		label{
+			text-align: right;
+		}
+
+		.check{
+		}
+	}
+
+	.check-wrap{
+		padding: 30px;
+	}
+
+	.checkbox{
+		label{
+			padding-left: 40px;
+		}
+	}
+
+	.edit{
+		border-top: 1px solid @c-3;
+		padding: 20px 15px;
+	}
+
+	.inbox{
+		border-top: 1px solid @c-3;
+		padding: 20px 15px;
+
+		.dl-horizontal{
+			dt, dd{
+				display: block;
+				padding: 5px 0;
+			}
+		}
+	}
+}
+
+.check {
+  position: relative;
+  padding: 2px;
+  width: 50%;
+  display: inline-block;
+
+  label {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #48c9b0, #1abc9c);
+    border-radius: 4px;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,.4);
+    &:after {
+      content: '';
+      width: 12px;
+      height: 8px;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      border: 3px solid #fcfff4;
+      border-top: none;
+      border-right: none;
+      background: transparent;
+      opacity: 0;
+      transform: rotate(-45deg);
+    }
+    &:hover::after {
+      opacity: 0.3;
+    }
+  }
+  input[type=checkbox] {
+    visibility: hidden;
+    &:checked + label:after {
+      opacity: 1;
+    }    
+  }
+  span{
+    padding-left: 20px;
+  }
+}
+
+.form-control{
+	&:focus{
+		box-shadow: none;
+		border-color: @c-1;
+	}
+}
+
+
+.save{
+	margin: 40px 0 10px 15px;
+
+	.btn{
+		.bg(#fff);
+		border-color: @c-1;
+		color: @c-1;
+		display: inline;
+
+		&:hover{
+			.bg(@c-1);
+			color: #fff;
+		}
+
+	}
+}
+
+
+.ct-quest{
+	border-top: 3px solid @c-3;
+	.bg(#fff);
+
+	.box-head{
+		padding: 2px 15px;
+
+		h4{
+			font-weight: 600;
+			font-size: 14px;
+		}
+	}
+	.quest{
+		margin-bottom: 20px;
+		border-bottom: 1px solid @g-8;
+
+		h4{
+			font-weight: 600;
+
+			i{
+				font-size: 24px;
+				width: 24px;
+				color: @c-1;
+				vertical-align: text-bottom;
+			}
+		}
+
+		p{
+			margin-left: 30px;
+		}
+	}
+}
+
+
+footer{
+    .bg(@g-8);
+    padding: 15px;
+
+    ul{
+        margin: 0;
+        li{}
+    }
+}
+
+.login{
+    padding-top: 4%;
+    position: relative;
+    background-image:url('../../images/img188.jpg');
+    background-attachment:fixed ;
+    width:100%;
+    height:700px;
+    background-size: cover;
+
+    .well{
+        .bg(@w-1);
+        border-radius: 5px;
+        .box-shadow(@shadow-outer-gray);
+
+        h2{
+        	margin: 0;
+            font-size: 28px;
+            padding: 10px 10px 10px 10px;
+
+            span{
+            	display: block;
+            	color: #fff;
+            	padding-bottom: 10px;
+            	font-size: 16px;
+            }
+        }
+
+        .form{
+            .input-wrap{
+
+                input{
+                    .placeholder(#fff);
+                    color: #fff;
+                }
+
+                .morph-shape svg path{
+                    fill: rgba(0,0,0,0.2);
+                }
+            }
+
+            .btn{
+                margin: 25px 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,612 @@
+/*
+  Theme Name: 
+  Theme URL: 
+  Author: Pixel Coders
+  Description: 
+  Version: 1.0
+*/
+/*
+  Theme Name: Pixel Alexa
+  Theme URL: http://www.socialdiggers.com/template/pixelalexa/pages/index.html
+  Author: Pixel Coders
+  Description: Pixel Alexa - Responsive one page Template less stylesheet
+  Version: 1.0
+*/
+h1 {
+  font: normal 3.5em/1.4em 'Open Sans', sans-serif;
+}
+h2 {
+  font: normal 2.7em/1.2em 'Open Sans', sans-serif;
+}
+h3 {
+  font: normal 2em/1.3em 'Open Sans', sans-serif;
+}
+h4 {
+  font: normal 1.2em/1.3em 'Open Sans', sans-serif;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: #19aa8d;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: #fff !important;
+  text-decoration: none;
+}
+::selection {
+  background: #222;
+  color: #FFF;
+}
+::-moz-selection {
+  background: #222;
+  color: #FFF;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+  display: none;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 30px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: #e7eaec;
+  -webkit-box-shadow: none;
+}
+.hide {
+  visibility: hidden !important;
+}
+.page-header {
+  border-color: rgba(133, 185, 30, 0.8);
+}
+.active {
+  color: #19aa8d !important;
+}
+blockquote {
+  padding: 20px;
+  margin: 20px;
+  border-left: 3px solid #19aa8d;
+  background-color: #555;
+}
+blockquote small {
+  color: #000;
+}
+.bg-1 {
+  background-color: #19aa8d;
+}
+.bg-2 {
+  background-color: #293846;
+}
+.bg-gray-1 {
+  background-color: #f6f6f6;
+}
+.bg-gray-2 {
+  background-color: #eee;
+}
+.bg-gray-3 {
+  background-color: #ccc;
+}
+.bg-gray-4 {
+  background-color: #333;
+}
+.p0 {
+  padding: 0;
+}
+.p10 {
+  padding: 10px 0;
+}
+.p20 {
+  padding: 20px 0;
+}
+.p40 {
+  padding: 40px 0;
+}
+.p60 {
+  padding: 60px 0;
+}
+.p80 {
+  padding: 80px 0;
+}
+.p100 {
+  padding: 100px 0;
+}
+._p10 {
+  padding: 0 10px;
+}
+._p20 {
+  padding: 0 20px;
+}
+._p30 {
+  padding: 0 30px;
+}
+._p40 {
+  padding: 0 40px;
+}
+._p50 {
+  padding: 0 50px;
+}
+._p60 {
+  padding: 0 60px;
+}
+._p80 {
+  padding: 0 80px;
+}
+.m10 {
+  margin: 10px 0;
+}
+.m20 {
+  margin: 20px 0;
+}
+.m30 {
+  margin: 30px 0;
+}
+.m40 {
+  margin: 40px 0;
+}
+.m50 {
+  margin: 50px 0;
+}
+.m60 {
+  margin: 60px 0;
+}
+.d0 {
+  animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -webkit-animation-delay: 300ms;
+}
+.d1 {
+  animation-delay: 600ms;
+  -moz-animation-delay: 600ms;
+  -webkit-animation-delay: 600ms;
+}
+.d2 {
+  animation-delay: 900ms;
+  -moz-animation-delay: 900ms;
+  -webkit-animation-delay: 900ms;
+}
+.d3 {
+  animation-delay: 1200ms;
+  -moz-animation-delay: 1200ms;
+  -webkit-animation-delay: 1200ms;
+}
+.d4 {
+  animation-delay: 1500ms;
+  -moz-animation-delay: 1500ms;
+  -webkit-animation-delay: 1500ms;
+}
+.d5 {
+  animation-delay: 1800ms;
+  -moz-animation-delay: 1800ms;
+  -webkit-animation-delay: 1800ms;
+}
+.d6 {
+  animation-delay: 2100ms;
+  -moz-animation-delay: 2100ms;
+  -webkit-animation-delay: 2100ms;
+}
+.d7 {
+  animation-delay: 2400ms;
+  -moz-animation-delay: 2400ms;
+  -webkit-animation-delay: 2400ms;
+}
+.d8 {
+  animation-delay: 2700ms;
+  -moz-animation-delay: 2700ms;
+  -webkit-animation-delay: 2700ms;
+}
+.d9 {
+  animation-delay: 3000ms;
+  -moz-animation-delay: 3000ms;
+  -webkit-animation-delay: 3000ms;
+}
+.d10 {
+  animation-delay: 3300ms;
+  -moz-animation-delay: 3300ms;
+  -webkit-animation-delay: 3300ms;
+}
+.d11 {
+  animation-delay: 3600ms;
+  -moz-animation-delay: 3600ms;
+  -webkit-animation-delay: 3600ms;
+}
+.d12 {
+  animation-delay: 3900ms;
+  -moz-animation-delay: 3900ms;
+  -webkit-animation-delay: 3900ms;
+}
+.d13 {
+  animation-delay: 4200ms;
+  -moz-animation-delay: 4200ms;
+  -webkit-animation-delay: 4200ms;
+}
+.d14 {
+  animation-delay: 4500ms;
+  -moz-animation-delay: 4500ms;
+  -webkit-animation-delay: 4500ms;
+}
+.d15 {
+  animation-delay: 4800ms;
+  -moz-animation-delay: 4800ms;
+  -webkit-animation-delay: 4800ms;
+}
+/*
+  Theme Name: Pixel Alexa
+  Theme URL: http://www.socialdiggers.com/template/pixelalexa/pages/index.html
+  Author: Pixel Coders
+  Description: Pixel Alexa - Responsive one page Template less stylesheet
+  Version: 1.0
+*/
+/*
+  Theme Name: Pixel Alexa
+  Theme URL: http://www.socialdiggers.com/template/pixelalexa/pages/index.html
+  Author: Pixel Coders
+  Description: Pixel Alexa - Responsive one page Template less stylesheet
+  Version: 1.0
+*/
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+body {
+  background-color: #2f4050;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 13px !important;
+  color: #676a6c !important;
+  text-decoration: none !important;
+}
+.page-wrap {
+  background-color: #f3f3f4;
+  color: #666666;
+  margin-left: 16%;
+}
+.navbar-static-side {
+  z-index: 2001;
+  position: absolute;
+  width: 16%;
+  background-color: transparent;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li {
+  background-color: transparent;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li a {
+  padding: 14px 20px 14px 25px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #a7b1c2;
+  background-color: transparent;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li a i {
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 8px;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li .col-exp .lev2-ul {
+  display: block;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li .col-exp .lev2-ul li {
+  background-color: transparent;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li .col-exp .lev2-ul li:hover > a {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li .col-exp .lev2-ul > li a {
+  display: block;
+  padding: 7px 10px 7px 52px;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li:hover > a {
+  color: #fff;
+  background-color: #293846;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.header {
+  background: url(../../images/header-profile.png) no-repeat;
+  background-attachment: fixed ;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  padding: 28px 25px;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.header .prof-li .img-circle {
+  width: 54px;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.header .prof-li a {
+  padding: 10px 0;
+  display: block;
+  color: #a7b1c2;
+  background-color: transparent;
+  font-weight: 100;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.header .prof-li a strong {
+  display: block;
+  color: #fff;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.header .logo {
+  display: none;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.active {
+  border-left: 4px solid #19aa8d;
+  background-color: #293846;
+}
+.navbar-static-side .sidebar-collapse .lev1-ul > li.active > a {
+  color: #fff;
+}
+.navbar-static-top {
+  margin: 0;
+  border-bottom: 1px solid #e7eaec;
+}
+.navbar-static-top .nav-header .nav-minmize {
+  margin: 14px 5px 5px 20px;
+  padding: 4px 12px;
+  background-color: #19aa8d;
+  border: #19aa8d;
+  vertical-align: top;
+}
+.navbar-static-top .nav-header .nav-brand {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0;
+  padding: 17px 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar-static-top .navbar-top-links .btn {
+  margin: 14px 20px;
+}
+.page-heading {
+  background-color: #ffffff;
+  padding: 0 0 15px 20px;
+  border-bottom: 1px solid #e7eaec;
+}
+.page-heading h2 {
+  font-size: 1.8em;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.page-heading .breadcrumb {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+.page-heading .breadcrumb li a {
+  color: #676a6c;
+}
+.page-heading .breadcrumb li.active {
+  font-weight: bold;
+}
+.dash-wrap {
+  min-height: 700px;
+  padding: 20px;
+}
+.create {
+  margin-bottom: 20px;
+}
+.list {
+  padding: 20px 15px;
+  border-top: 1px solid #e7eaec;
+  background-color: #ffffff;
+}
+.list .table td i.fa {
+  font-size: 20px;
+  color: #19aa8d;
+}
+.list i.list-fa {
+  font-size: 20px;
+  color: #19aa8d;
+  margin-right: 20px;
+}
+.list address {
+  width: 180px;
+}
+.list span {
+  margin: 20px 0;
+}
+.list .panel .panel-heading .panel-title {
+  display: inline-block;
+  margin: -10px 0;
+}
+.list .panel .panel-heading .panel-title i {
+  color: #fff;
+  padding-top: 5px;
+  text-align: center;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  background-color: #19aa8d;
+}
+.list .panel .panel-heading .panel-icon a {
+  color: #19aa8d;
+  margin: -10px 2px;
+  display: inline-block;
+}
+.set {
+  border-top: 3px solid #e7eaec;
+  background-color: #ffffff;
+}
+.set .box-head {
+  padding: 2px 15px;
+}
+.set .box-head h4 {
+  font-weight: 600;
+  font-size: 14px;
+}
+.set .btn {
+  color: #fff !important;
+  background-color: #19aa8d !important;
+  border: #19aa8d !important;
+}
+.set .form-group {
+  margin-bottom: 30px;
+}
+.set .form-group label {
+  text-align: right;
+}
+.set .check-wrap {
+  padding: 30px;
+}
+.set .checkbox label {
+  padding-left: 40px;
+}
+.set .edit {
+  border-top: 1px solid #e7eaec;
+  padding: 20px 15px;
+}
+.set .inbox {
+  border-top: 1px solid #e7eaec;
+  padding: 20px 15px;
+}
+.set .inbox .dl-horizontal dt,
+.set .inbox .dl-horizontal dd {
+  display: block;
+  padding: 5px 0;
+}
+.check {
+  position: relative;
+  padding: 2px;
+  width: 50%;
+  display: inline-block;
+}
+.check label {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #48c9b0, #1abc9c);
+  border-radius: 4px;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+}
+.check label:after {
+  content: '';
+  width: 12px;
+  height: 8px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border: 3px solid #fcfff4;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  opacity: 0;
+  transform: rotate(-45deg);
+}
+.check label:hover::after {
+  opacity: 0.3;
+}
+.check input[type=checkbox] {
+  visibility: hidden;
+}
+.check input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+.check span {
+  padding-left: 20px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #19aa8d;
+}
+.save {
+  margin: 40px 0 10px 15px;
+}
+.save .btn {
+  background-color: #ffffff;
+  border-color: #19aa8d;
+  color: #19aa8d;
+  display: inline;
+}
+.save .btn:hover {
+  background-color: #19aa8d;
+  color: #fff;
+}
+.ct-quest {
+  border-top: 3px solid #e7eaec;
+  background-color: #ffffff;
+}
+.ct-quest .box-head {
+  padding: 2px 15px;
+}
+.ct-quest .box-head h4 {
+  font-weight: 600;
+  font-size: 14px;
+}
+.ct-quest .quest {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.ct-quest .quest h4 {
+  font-weight: 600;
+}
+.ct-quest .quest h4 i {
+  font-size: 24px;
+  width: 24px;
+  color: #19aa8d;
+  vertical-align: text-bottom;
+}
+.ct-quest .quest p {
+  margin-left: 30px;
+}
+footer {
+  background-color: #e6e6e6;
+  padding: 15px;
+}
+footer ul {
+  margin: 0;
+}
+.login {
+  padding-top: 4%;
+  position: relative;
+  background-image: url('../../images/img188.jpg');
+  background-attachment: fixed ;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+}
+.login .well {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 8px -8px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 10px 8px -8px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 8px -8px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.login .well h2 {
+  margin: 0;
+  font-size: 28px;
+  padding: 10px 10px 10px 10px;
+}
+.login .well h2 span {
+  display: block;
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+.login .well .form .input-wrap input {
+  color: #fff;
+}
+.login .well .form .input-wrap input:-moz-placeholder {
+  color: #ffffff;
+}
+.login .well .form .input-wrap input::-moz-placeholder {
+  color: #ffffff;
+}
+.login .well .form .input-wrap input:-ms-input-placeholder {
+  color: #ffffff;
+}
+.login .well .form .input-wrap input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.login .well .form .input-wrap .morph-shape svg path {
+  fill: rgba(0, 0, 0, 0.2);
+}
+.login .well .form .btn {
+  margin: 25px 0;
+}
